@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~syEFCD6J#BZwbNlYTKAO-X3UcKNrJ9f3b5Fz-J6TjA6gNC9m1lKI",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -24,13 +24,13 @@ module.exports = {
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // make true or false status auto seen
 
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // make true if you want auto reply on status 
 
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
@@ -45,7 +45,7 @@ module.exports = {
     ANTI_LINK: process.env.ANTI_LINK || "true",
     // make anti link true,false for groups 
 
-    MENTION_REPLY: process.env.MENTION_REPLY || "false",
+    MENTION_REPLY: process.env.MENTION_REPLY || "true",
     // make true if want auto voice reply if someone mention you 
 
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
@@ -67,7 +67,7 @@ module.exports = {
     STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
     // type sticker pack name 
 
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
     // make this true for custom emoji react  
 
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -76,10 +76,10 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349037241013",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
+    OWNER_NAME: process.env.OWNER_NAME || "Darknet",
     // add bot owner name
 
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
@@ -88,7 +88,7 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     // Turn true or false for automatic read msgs
 
-    AUTO_REACT: process.env.AUTO_REACT || "false",
+    AUTO_REACT: process.env.AUTO_REACT || "true",
     // make this true or false for auto react on all msgs
 
     ANTI_BAD: process.env.ANTI_BAD || "false",
@@ -121,7 +121,7 @@ module.exports = {
     ANTI_VV: process.env.ANTI_VV || "true",
     // true for anti once view 
 
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
