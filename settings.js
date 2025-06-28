@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "suho~9vER2SjZ#Qx3sMCHyZtxUiNeO59h107v55RUJyDETHHZw2Z_9Z1g",
+    SESSION_ID: process.env.SESSION_ID || "suho~161WATKC#9PaI3VuXH6DrxoC1WrrNjK5EPINqn2cff9p4VqWPkUU",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -24,16 +24,16 @@ module.exports = {
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
 
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ Darknet 😆*",
     // set the auto reply message on status reply  
 
     WELCOME: process.env.WELCOME || "true",
@@ -76,13 +76,13 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349037241013",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2348029264766",
     // add your bot owner number
 
     OWNER_NAME: process.env.OWNER_NAME || "Darknet",
     // add bot owner name
 
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
+    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Dark net*",
     // add bot owner description  
 
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -118,7 +118,7 @@ module.exports = {
     DEV: process.env.DEV || "27813374457",
     // replace with your whatsapp number  
 
-    ANTI_VV: process.env.ANTI_VV || "true",
+    ANTI_VV: process.env.ANTI_VV || "false",
     // true for anti once view 
 
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",
